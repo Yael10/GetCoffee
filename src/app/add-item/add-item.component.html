@@ -1,0 +1,20 @@
+<form [formGroup]="addItemform" (ngSubmit)="add()">
+  <label>תאור:</label>
+ 
+  <input type="text" formControlName="description"> <br>
+  <label>נמצא בקו:</label>
+
+  <input type="number" formControlName="busNumber">  <br>
+  <label>טלפון:</label>
+
+  <input type="number" formControlName="phoneNumber">  <br>
+  <label>קוד קטגוריה:</label>
+
+  <select formControlName="categotyId"> 
+    <option *ngFor="let c of categories" [value]="c.id">{{c.name}}</option>
+  </select>
+  <br>
+  
+  <br>
+  <input type="submit" value="הוסף">
+</form>

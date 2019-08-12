@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+table{margin: auto;
+        font-family: sans-serif;
+        text-align: center;}
+button{height: 32px;
+    width: 78px;
+    background: #aac8ff;
+}
+form{    text-align: center; direction: rtl;}

@@ -1,0 +1,8 @@
+*{
+    text-align: center;
+    float: unset;
+    margin: auto; 
+}
+router-outlet{
+    text-align: center;
+}
